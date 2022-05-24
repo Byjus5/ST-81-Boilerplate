@@ -18,7 +18,7 @@ export default function App() {
               iconName = focused
                 ? 'book'
                 : 'book-outline';
-            } else if (route.name === 'CreateStory') {
+            } else if (route.name === 'CrearHistoria') {
               iconName = focused ? 'create' : 'create-outline';
             }
             return <Ionicons name={iconName} size={size} color={color} />;
